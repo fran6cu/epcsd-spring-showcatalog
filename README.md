@@ -7,14 +7,14 @@ To execute this microservice:
 ### Previous steps:
 
 1. Download to local machine docker-compose descriptors with git clone command (https://github.com/ppinedar/epcsd-spring)
- ```
-   git clone https://github.com/ppinedar/epcsd-spring.git
- ```
+```
+git clone https://github.com/ppinedar/epcsd-spring.git
+```
 2. Be sure you have docker and docker-compose binaries installed and working
 3. Execute from local path command 'docker-compose up', wait until all containers are up.
-   ``` 
-   docker-compose up 
-   ```
+``` 
+docker-compose up 
+```
     
     - Zookeeper
     - Kafka
@@ -31,15 +31,17 @@ docker ps
 
 1. Download project repo to the local machine with git clone command
 ```
-   git clone https://github.com/fran6cu/epcsd-spring-showcatalog.git
+git clone https://github.com/fran6cu/epcsd-spring-showcatalog.git
 ```
 2. Build maven project with command 
 ``` 
+cd epcsd-spring-showcatalog
 mvn clean install
 ``` 
 4. Locate JAR packet and execute with java -jar packet-name.jar
 ```  
-   java -jar showcatalog-0.0.1-PRAC2.jar
+cd target
+java -jar showcatalog-0.0.1-PRAC2.jar
 ``` 
 
 **ALL** this steps can be done using IDE.
