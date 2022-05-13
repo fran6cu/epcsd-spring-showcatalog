@@ -13,6 +13,7 @@ git clone https://github.com/ppinedar/epcsd-spring.git
 2. Be sure you have docker and docker-compose binaries installed and working
 3. Execute from local path command 'docker-compose up', wait until all containers are up.
 ``` 
+cd epcsd-spring
 docker-compose up 
 ```
     
@@ -21,7 +22,7 @@ docker-compose up
     - Postgresql
     - Adminer
 
-4. Verify docker containers are running with command 
+4. Verify containers are up and running with command 
 ``` 
 docker ps
 ``` 
