@@ -1,4 +1,4 @@
-# epcsd-spring-Showcatalog
+# epcsd-spring-showcatalog
 
 
 To execute this microservice:
